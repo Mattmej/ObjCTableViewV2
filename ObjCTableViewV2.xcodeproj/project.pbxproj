@@ -16,6 +16,7 @@
 		C919652C21C9E0EB004A4C50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C919652B21C9E0EB004A4C50 /* main.m */; };
 		C919653621C9E0EB004A4C50 /* ObjCTableViewV2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C919653521C9E0EB004A4C50 /* ObjCTableViewV2Tests.m */; };
 		C919654121C9E0EB004A4C50 /* ObjCTableViewV2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C919654021C9E0EB004A4C50 /* ObjCTableViewV2UITests.m */; };
+		C919655321C9E469004A4C50 /* cellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C919655221C9E469004A4C50 /* cellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C919653C21C9E0EB004A4C50 /* ObjCTableViewV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCTableViewV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C919654021C9E0EB004A4C50 /* ObjCTableViewV2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCTableViewV2UITests.m; sourceTree = "<group>"; };
 		C919654221C9E0EB004A4C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C919655121C9E469004A4C50 /* cellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cellModel.h; sourceTree = "<group>"; };
+		C919655221C9E469004A4C50 /* cellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		C919651821C9E0E9004A4C50 /* ObjCTableViewV2 */ = {
 			isa = PBXGroup;
 			children = (
+				C919654E21C9E3FA004A4C50 /* Models */,
 				C919651921C9E0E9004A4C50 /* AppDelegate.h */,
 				C919651A21C9E0E9004A4C50 /* AppDelegate.m */,
 				C919651C21C9E0E9004A4C50 /* ViewController.h */,
@@ -133,6 +137,15 @@
 				C919654221C9E0EB004A4C50 /* Info.plist */,
 			);
 			path = ObjCTableViewV2UITests;
+			sourceTree = "<group>";
+		};
+		C919654E21C9E3FA004A4C50 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C919655121C9E469004A4C50 /* cellModel.h */,
+				C919655221C9E469004A4C50 /* cellModel.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,6 +281,7 @@
 				C919651E21C9E0E9004A4C50 /* ViewController.m in Sources */,
 				C919652421C9E0E9004A4C50 /* ObjCTableViewV2.xcdatamodeld in Sources */,
 				C919652C21C9E0EB004A4C50 /* main.m in Sources */,
+				C919655321C9E469004A4C50 /* cellModel.m in Sources */,
 				C919651B21C9E0E9004A4C50 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
